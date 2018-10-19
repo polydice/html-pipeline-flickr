@@ -36,6 +36,8 @@ module HTML
             match
           end
         end
+      rescue
+        @text
       end
 
       private
